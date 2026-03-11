@@ -54,12 +54,12 @@ html {
 .weather-box {
   width: calc(100% - 20px);
   padding: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   text-align: left;
   box-sizing: border-box;
   border-radius: 10px;
-  margin: 0 10px;
+  margin: 10px 10px 20px 10px;
 }
 
 .weather-box input {
@@ -77,6 +77,49 @@ html {
 }
 
 .weather-box h2,
+.weather-box h3,
 .weather-box p {
+  text-align: left;
+}
+
+.weather-result-box .temperature-readout {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.degree-symbol {
+  font-size: 1rem;
+  color: #888;
+  margin-left: 2px;
+}
+
+.weather-result-box p {
+  margin: 4px 0;
+}
+
+.weather-details {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.detail-box {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  color: #555;
+}
+
+.detail-box .detail-label {
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.detail-box .detail-value {
+  font-size: 1.25rem;
+  font-weight: bold;
   text-align: left;
 }
