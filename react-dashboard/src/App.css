@@ -38,8 +38,22 @@ html {
   color: white;
 }
 
+.App h1 {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.App h2 {
+  font-size: 1.25rem;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
 .App-link {
   color: #61dafb;
+  margin-left: 10px;
 }
 
 @keyframes App-logo-spin {

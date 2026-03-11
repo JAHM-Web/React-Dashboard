@@ -15,8 +15,6 @@ export default function Weather() {
     setHumidity(null);
     setWindspeed(null);
 
-  const location = `${city}, ${state}, USA`;
-
   const geoRes = await fetch(
   `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&country=US`
 );
@@ -56,7 +54,7 @@ const lon = locationResult.longitude;
   } else {
     setHumidity(null);
   }
-  // store location used for result
+  // store location used for result box
   setResultCity(city);
   setResultState(state);
   };
