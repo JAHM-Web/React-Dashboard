@@ -44,7 +44,7 @@ const lon = locationResult.longitude;
   };
 
   return (
-    <div>
+    <div className="weather-box">
       <h2>Where are You?</h2>
 
       <input

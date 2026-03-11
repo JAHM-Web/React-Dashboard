@@ -4,7 +4,7 @@ import Weather from "./Weather";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1>SkySounds</h1>
       <h2>Music for your weather</h2>
       <Weather />
